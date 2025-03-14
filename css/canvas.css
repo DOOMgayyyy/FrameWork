@@ -1,0 +1,38 @@
+.canvas-position {
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#funcInput {
+    display: flex;
+    flex-direction: column; /* Устанавливаем вертикальное расположение */
+    gap: 10px; /* Задаём расстояние между элементами */
+}
+.function-wrapper {
+    display: flex;
+    align-items: center; /* Центрируем элементы */
+    gap: 5px; /* Расстояние между элементами */
+}
+.glow-on-hover {
+    transition: all 0.3s ease;
+    border: 2px solid #4CAF50;
+}
+
+.glow-on-hover:hover {
+    box-shadow: 0 0 15px #4CAF50;
+}
+
+.integral-area {
+    fill-opacity: 0.3;
+    stroke-width: 0;
+}
